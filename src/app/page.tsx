@@ -55,7 +55,6 @@ export default async function Home({
 
   return (
     <div className='h-auto min-h-screen'>
-      예시 코드 입니다.
       {!hasParams && <RecentViewPage />}
       {!hasParams && <BestActivity />}
       {!hasParams ? (
